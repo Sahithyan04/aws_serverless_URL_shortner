@@ -1,24 +1,24 @@
-# 🔗 Serverless URL Shortener (AWS Lambda + API Gateway + DynamoDB)
+# Serverless URL Shortener (AWS Lambda + API Gateway + DynamoDB)
 
-A lightweight serverless URL shortener built using **AWS Lambda**, **API Gateway**, and **DynamoDB** — fully serverless, pay-per-use, and free-tier optimized 💸.
+A lightweight serverless URL shortener built using **AWS Lambda**, **API Gateway**, and **DynamoDB** — fully serverless, pay-per-use, and free-tier optimized .
 
 ---
 
-## ⚙️ Features
+## Features
 
-- Shortens any long URL into a 6-char unique shortcode 🔐
-- Redirects users to original URL using `/shortcode` route 🌐
+- Shortens any long URL into a 6-char unique shortcode 
+- Redirects users to original URL using `/shortcode` route
 - Fully serverless using AWS Lambda + API Gateway
 - Stores mappings in DynamoDB
-- 301 redirect support for SEO friendliness 📈
+- 301 redirect support for SEO friendliness
 
 ---
 
 ---
 
-## 🚀 Usage
+## Usage
 
-### 🔹 1. Shorten a URL
+###  1. Shorten a URL
 
 **Endpoint:**  
 `POST /shorten`  
@@ -39,15 +39,15 @@ A lightweight serverless URL shortener built using **AWS Lambda**, **API Gateway
 
 ---
 
-### 🔹 2. Redirect
+###  2. Redirect
 
 Access the shortened URL:  
 `GET /a1b2c3` 
-➡️ Redirects to `https://<Some long url u need to Shorten>.com`
+Redirects to `https://<Some long url u need to Shorten>.com`
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - AWS Lambda (Python 3.13) 
 - Amazon API Gateway 
@@ -57,10 +57,10 @@ Access the shortened URL:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
-📁 url-shortener/
+url-shortener/
 ├── lambda
 |    ├── shorten_url.py        # Lambda: shorten handler
 |    ├── redirect_url.py       # Lambda: redirect handler
@@ -71,7 +71,7 @@ Access the shortened URL:
 
 ---
 
-## 💡 Future Ideas
+##  Future Ideas
 
 - Add a frontend UI for input
 - Custom shortcode input
@@ -79,13 +79,3 @@ Access the shortened URL:
 - Expiry system for links
 
 ---
-
-## 👤 Author
-
-**Sahithyan M**  
-🔗 [GitHub](https://github.com/Sahithyan04)  
-🔗 [LinkedIn](https://linkedin.com/in/sahithyanm)
-
----
-
-
